@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  NetworkSwitch
+  
+  Created by 吕心言 on 26/6/2025.
+  
+*/
+
+// MARK: - App Basic Info
+"app_title" = "NetworkSwitch";
+"app_subtitle" = "Automatic Network Switching";
+"app_description" = "Automatic Network Switching Tool\n\nWhen Ethernet connection is detected, WiFi will be automatically disabled for more stable network connection.\nWhen Ethernet is disconnected, WiFi will be automatically re-enabled.";
+
+// MARK: - Main Interface
+"enable_auto_switch" = "Enable Auto Switch";
+"disable_auto_switch" = "Disable Auto Switch";
+"auto_switch_enabled" = "🟢 Auto Switch Enabled";
+"auto_switch_disabled" = "🔴 Auto Switch Disabled";
+
+// MARK: - Network Status
+"ethernet_connected" = "🔌 Ethernet: Connected";
+"ethernet_disconnected" = "🔌 Ethernet: Disconnected";
+"ethernet_detecting" = "🔌 Ethernet: Detecting...";
+"wifi_on" = "📶 WiFi: On";
+"wifi_off" = "📶 WiFi: Off";
+"wifi_detecting" = "📶 WiFi: Detecting...";
+
+// MARK: - Preferences
+"preferences" = "Preferences";
+"launch_at_login" = "Launch at Login";
+"show_notifications" = "Show Notifications";
+"language_setting" = "Language";
+"follow_system" = "Follow System";
+"chinese" = "中文";
+"english" = "English";
+
+// MARK: - Action Buttons
+"hide_to_status_bar" = "Hide to Status Bar";
+"quit_app" = "Quit App";
+"preferences_menu" = "Preferences...";
+"quit_menu" = "Quit";
+
+// MARK: - Status Bar Menu
+"status_bar_auto_switch_on" = "Auto Switch: On";
+"status_bar_auto_switch_off" = "Auto Switch: Off";
+"status_bar_ethernet_status" = "Ethernet Status";
+"status_bar_wifi_status" = "WiFi Status";
+
+// MARK: - Notification Messages
+"notification_wifi_disabled" = "WiFi Disabled";
+"notification_wifi_disabled_body" = "Ethernet connection detected, WiFi automatically disabled";
+"notification_wifi_enabled" = "WiFi Enabled";
+"notification_wifi_enabled_body" = "Ethernet disconnected, WiFi automatically enabled";
+"notification_auto_switch_enabled" = "Auto Switch Enabled";
+"notification_auto_switch_disabled" = "Auto Switch Disabled";
+"notification_test_message" = "Notifications are now enabled. You will receive network status alerts.";
+
+// MARK: - Error Messages
+"error_network_access" = "Network Access Error";
+"error_wifi_control" = "WiFi Control Failed";
+"error_ethernet_detection" = "Ethernet Detection Failed";
+
+// MARK: - Window Title
+"main_window_title" = "NetworkSwitch - Automatic Network Switching"; 

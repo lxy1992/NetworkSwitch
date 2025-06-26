@@ -1,0 +1,65 @@
+# Xcode
+#
+# 忽略Xcode构建生成的文件和目录
+
+## 构建生成的文件
+build/
+DerivedData/
+*.build/
+dist/
+
+## 各种设置
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## 其他
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+.DS_Store
+
+## Obj-C/Swift 特定
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+.swiftpm/
+
+## CocoaPods
+Pods/
+Podfile.lock
+
+## Carthage
+Carthage/Build/
+
+## 回溯文件
+*.xcactivitylog
+.specstory
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift编译器
+.build/
+
+# 本地配置文件
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo 

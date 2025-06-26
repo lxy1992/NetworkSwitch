@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  NetworkSwitch
+  
+  Created by 吕心言 on 26/6/2025.
+  
+*/
+
+// MARK: - 应用基本信息
+"app_title" = "NetworkSwitch";
+"app_subtitle" = "网络自动切换";
+"app_description" = "自动网络切换工具\n\n当检测到以太网连接时，会自动关闭WiFi以获得更稳定的网络连接。\n当以太网断开时，会自动重新开启WiFi。";
+
+// MARK: - 主界面
+"enable_auto_switch" = "启用自动切换";
+"disable_auto_switch" = "禁用自动切换";
+"auto_switch_enabled" = "🟢 自动切换已启用";
+"auto_switch_disabled" = "🔴 自动切换已禁用";
+
+// MARK: - 网络状态
+"ethernet_connected" = "🔌 以太网: 已连接";
+"ethernet_disconnected" = "🔌 以太网: 未连接";
+"ethernet_detecting" = "🔌 以太网: 检测中...";
+"wifi_on" = "📶 WiFi: 已开启";
+"wifi_off" = "📶 WiFi: 已关闭";
+"wifi_detecting" = "📶 WiFi: 检测中...";
+
+// MARK: - 偏好设置
+"preferences" = "偏好设置";
+"launch_at_login" = "开机自动启动";
+"show_notifications" = "显示系统通知";
+"language_setting" = "语言设置";
+"follow_system" = "跟随系统";
+"chinese" = "中文";
+"english" = "English";
+
+// MARK: - 操作按钮
+"hide_to_status_bar" = "隐藏到状态栏";
+"quit_app" = "退出应用";
+"preferences_menu" = "偏好设置...";
+"quit_menu" = "退出";
+
+// MARK: - 状态栏菜单
+"status_bar_auto_switch_on" = "自动切换: 开启";
+"status_bar_auto_switch_off" = "自动切换: 关闭";
+"status_bar_ethernet_status" = "以太网状态";
+"status_bar_wifi_status" = "WiFi状态";
+
+// MARK: - 通知消息
+"notification_wifi_disabled" = "WiFi已关闭";
+"notification_wifi_disabled_body" = "检测到以太网连接，已自动关闭WiFi";
+"notification_wifi_enabled" = "WiFi已开启";
+"notification_wifi_enabled_body" = "以太网断开，已自动开启WiFi";
+"notification_auto_switch_enabled" = "自动切换已启用";
+"notification_auto_switch_disabled" = "自动切换已禁用";
+"notification_test_message" = "通知功能已开启，您将收到网络状态变化提醒";
+
+// MARK: - 错误信息
+"error_network_access" = "网络访问错误";
+"error_wifi_control" = "WiFi控制失败";
+"error_ethernet_detection" = "以太网检测失败";
+
+// MARK: - 窗口标题
+"main_window_title" = "NetworkSwitch - 网络自动切换"; 
