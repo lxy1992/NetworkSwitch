@@ -1,8 +1,8 @@
 # NetworkSwitch - Mac 网络自动切换工具
 # NetworkSwitch - Automatic Network Switching Tool for Mac
 
-一款简洁的 macOS 状态栏应用，可以在检测到有线网络（以太网）接入时自动关闭 Wi-Fi，在有线网络断开时自动恢复 Wi-Fi 连接。
-A lightweight macOS menu bar application that automatically turns off Wi-Fi when an Ethernet connection is detected and turns it back on when Ethernet is disconnected.
+- 一款简洁的 macOS 状态栏应用，可以在检测到有线网络（以太网）接入时自动关闭 Wi-Fi，在有线网络断开时自动恢复 Wi-Fi 连接。
+- A lightweight macOS menu bar application that automatically turns off Wi-Fi when an Ethernet connection is detected and turns it back on when Ethernet is disconnected.
 
 ---
 
@@ -84,18 +84,18 @@ A lightweight macOS menu bar application that automatically turns off Wi-Fi when
 
 ## 👨‍💻 致开发者 (For Developers)
 
-若您想从源码构建本项目，请确保您已安装 Xcode。然后在项目根目录运行以下命令：
-If you wish to build the project from the source, ensure you have Xcode installed. Then, run the following command in the project's root directory:
+- 若您想从源码构建本项目，请确保您已安装 Xcode。然后在项目根目录运行以下命令：
+- If you wish to build the project from the source, ensure you have Xcode installed. Then, run the following command in the project's root directory:
 
 ```bash
 ./build_release.sh
 ```
-该脚本将自动构建应用，并在项目根目录下生成可分发的 `.dmg` 和 `.zip` 文件。
-This script will build the application and create distributable `.dmg` and `.zip` files in the project's root directory.
+- 该脚本将自动构建应用，并在项目根目录下生成可分发的 `.dmg` 和 `.zip` 文件。
+- This script will build the application and create distributable `.dmg` and `.zip` files in the project's root directory.
 
 ---
 
 ## 📄 许可证 (License)
 
-本项目基于 **GNU Affero General Public License v3.0** 发布。详情请见 [LICENSE](LICENSE) 文件。
-This project is licensed under the **GNU Affero General Public License v3.0**. See the [LICENSE](LICENSE) file for details. 
+- 本项目基于 **GNU Affero General Public License v3.0** 发布。详情请见 [LICENSE](LICENSE) 文件。
+- This project is licensed under the **GNU Affero General Public License v3.0**. See the [LICENSE](LICENSE) file for details. 
